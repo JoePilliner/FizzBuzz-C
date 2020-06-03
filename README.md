@@ -1,20 +1,5 @@
-# CTemplate
-Template repository for C projects.
+# FizzBuzz (C)
 
-## Recommended usage for directories:
+## Specification:
 
-### src/
-
-I recommend this directory be used for storing C source code files.
-
-### lib/
-
-I recommend this directory be used for storing C header files.
-
-### bin/
-
-I recommend this directory be used for storing compiled program binaries.
-
-### doc/
-
-I recommend this directory be used for storing project documentation files.
+FizzBuzzes between arbitrary start and end integers
