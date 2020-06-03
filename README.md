@@ -2,4 +2,4 @@
 
 ## Specification:
 
-FizzBuzzes between arbitrary start and end integers
+C program that FizzBuzzes between arbitrary start and end unsigned long long integers
