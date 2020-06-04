@@ -1,3 +1,3 @@
 bin/fizzbuzz : src/fizzbuzz.c
-	mkdir bin
+	mkdir -p bin
 	cc -o bin/fizzbuzz src/fizzbuzz.c
