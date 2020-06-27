@@ -7,14 +7,14 @@
 #define BUZZ_FACTOR 5ULL
 #define FIZZBUZZ_FACTOR (FIZZES * BUZZES)
 
-//Constant values
-const unsigned long long FIZZES = FIZZ_FACTOR; //Fizz factor
-const unsigned long long BUZZES = BUZZ_FACTOR; //Buzz factor
-const unsigned long long FIZZBUZZES = FIZZBUZZ_FACTOR; //Fizzbuzz factor
-
 //Main function
 int main(int argc, char **argv)
 {
+    //Constant values
+    const register unsigned long long FIZZES = FIZZ_FACTOR; //Fizz factor
+    const register unsigned long long BUZZES = BUZZ_FACTOR; //Buzz factor
+    const register unsigned long long FIZZBUZZES = FIZZBUZZ_FACTOR; //Fizzbuzz factor
+
     switch(argc)
     {
         case 3:
