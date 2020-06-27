@@ -5,7 +5,7 @@
 //Constant value preprocessor defines
 #define FIZZ_FACTOR 3ULL
 #define BUZZ_FACTOR 5ULL
-#define FIZZBUZZ_FACTOR (FIZZES * BUZZES)
+#define FIZZBUZZ_FACTOR (FIZZ_FACTOR * BUZZ_FACTOR)
 
 //Main function
 int main(int argc, char **argv)
